@@ -1,0 +1,43 @@
+.menu {
+  padding: 20px;
+  text-align: center;
+}
+
+.menu.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.menu.dark {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.theme-switcher {
+  margin: 20px 0;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.menu-button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.menu.light .menu-button {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+}
+
+.menu.dark .menu-button {
+  background-color: #444;
+  border: 1px solid #666;
+  color: #fff;
+}
